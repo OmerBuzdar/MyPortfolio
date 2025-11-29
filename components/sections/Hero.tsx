@@ -72,30 +72,30 @@ export default function Hero() {
         />
       </div>
       
-      {/* Floating decorative elements */}
-      <div className="absolute inset-0 overflow-hidden pointer-events-none">
+      {/* Floating decorative elements - hidden on mobile to prevent overlap */}
+      <div className="hidden md:block absolute inset-0 overflow-hidden pointer-events-none">
         <motion.div
-          className="absolute top-1/4 left-[10%] w-16 h-16 rounded-2xl bg-gradient-to-br from-primary-500 to-primary-600 shadow-lg shadow-primary-500/30 flex items-center justify-center"
+          className="absolute top-1/4 left-[5%] lg:left-[10%] w-12 lg:w-16 h-12 lg:h-16 rounded-2xl bg-gradient-to-br from-primary-500 to-primary-600 shadow-lg shadow-primary-500/30 flex items-center justify-center"
           animate={{ y: [0, -20, 0], rotate: [0, 5, 0] }}
           transition={{ duration: 6, repeat: Infinity, ease: 'easeInOut' }}
         >
-          <Smartphone className="w-8 h-8 text-white" />
+          <Smartphone className="w-6 lg:w-8 h-6 lg:h-8 text-white" />
         </motion.div>
         
         <motion.div
-          className="absolute top-1/3 right-[15%] w-12 h-12 rounded-xl bg-gradient-to-br from-accent-400 to-accent-500 shadow-lg shadow-accent-500/30"
+          className="absolute top-1/3 right-[5%] lg:right-[15%] w-10 lg:w-12 h-10 lg:h-12 rounded-xl bg-gradient-to-br from-accent-400 to-accent-500 shadow-lg shadow-accent-500/30"
           animate={{ y: [0, -15, 0], rotate: [0, -10, 0] }}
           transition={{ duration: 5, repeat: Infinity, ease: 'easeInOut', delay: 1 }}
         />
         
         <motion.div
-          className="absolute bottom-1/4 left-[20%] w-14 h-14 rounded-2xl bg-gradient-to-br from-primary-400 to-accent-500 shadow-lg shadow-primary-500/25"
+          className="absolute bottom-1/4 left-[5%] lg:left-[20%] w-10 lg:w-14 h-10 lg:h-14 rounded-2xl bg-gradient-to-br from-primary-400 to-accent-500 shadow-lg shadow-primary-500/25"
           animate={{ y: [0, -25, 0] }}
           transition={{ duration: 7, repeat: Infinity, ease: 'easeInOut', delay: 2 }}
         />
         
         <motion.div
-          className="absolute bottom-1/3 right-[10%] w-10 h-10 rounded-xl bg-gradient-to-br from-accent-500 to-primary-500 shadow-lg shadow-accent-500/25"
+          className="absolute bottom-1/3 right-[5%] lg:right-[10%] w-8 lg:w-10 h-8 lg:h-10 rounded-xl bg-gradient-to-br from-accent-500 to-primary-500 shadow-lg shadow-accent-500/25"
           animate={{ y: [0, -18, 0], rotate: [0, 10, 0] }}
           transition={{ duration: 4, repeat: Infinity, ease: 'easeInOut', delay: 0.5 }}
         />
