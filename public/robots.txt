@@ -1,0 +1,14 @@
+# Robots.txt for Muhammad Umer Portfolio
+
+User-agent: *
+Allow: /
+
+# Sitemap location (update with your actual domain)
+Sitemap: https://muhammadumer.dev/sitemap.xml
+
+# Block common bot paths that don't need indexing
+Disallow: /api/
+Disallow: /_next/
+Disallow: /static/
+
+

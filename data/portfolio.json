@@ -1,0 +1,245 @@
+{
+  "personal": {
+    "name": "Muhammad Umer",
+    "title": "iOS Developer",
+    "bio": "Creative iOS Developer skilled in Swift and modern development tools. Adept at transforming complex ideas into intuitive, high-performance mobile apps. Passionate about leveraging innovative technologies to deliver exceptional user experiences.",
+    "email": "omerbaloch6464@gmail.com",
+    "location": "Lahore, Pakistan",
+    "resumeUrl": "/resume.pdf"
+  },
+  "skills": [
+    {
+      "name": "Core",
+      "skills": [
+        { "name": "Swift" },
+        { "name": "SwiftUI" },
+        { "name": "UIKit" },
+        { "name": "Xcode" },
+        { "name": "AutoLayout" }
+      ]
+    },
+    {
+      "name": "Networking",
+      "skills": [
+        { "name": "Alamofire" },
+        { "name": "URLSession" },
+        { "name": "REST APIs" },
+        { "name": "Postman" }
+      ]
+    },
+    {
+      "name": "Firebase",
+      "skills": [
+        { "name": "Firestore" },
+        { "name": "Analytics" },
+        { "name": "Crashlytics" },
+        { "name": "Remote Config" },
+        { "name": "Push Notifications" },
+        { "name": "Authentication" }
+      ]
+    },
+    {
+      "name": "Media & Vision",
+      "skills": [
+        { "name": "AVFoundation" },
+        { "name": "PhotoKit" },
+        { "name": "Vision Framework" },
+        { "name": "Video Compression" },
+        { "name": "Google Cast SDK" }
+      ]
+    },
+    {
+      "name": "Data & Storage",
+      "skills": [
+        { "name": "Core Data" },
+        { "name": "FileManager" },
+        { "name": "Caching" },
+        { "name": "Background Tasks" }
+      ]
+    },
+    {
+      "name": "Monetization",
+      "skills": [
+        { "name": "Google Mobile Ads" },
+        { "name": "In-App Purchases" }
+      ]
+    },
+    {
+      "name": "Architecture & Tools",
+      "skills": [
+        { "name": "MVVM" },
+        { "name": "MVC" },
+        { "name": "RxSwift" },
+        { "name": "Git" },
+        { "name": "GitHub" },
+        { "name": "Bitbucket" }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "phone-cleaner",
+      "slug": "phone-cleaner",
+      "name": "Phone Cleaner",
+      "description": "Comprehensive Phone Cleaner app with intelligent photo grouping using Vision, secure secret library, charging animation intents, contact management, and efficient video compression.",
+      "longDescription": "Developed a comprehensive Phone Cleaner app with intelligent photo grouping using Vision framework for photo similarity detection. Features include a secure secret library, charging animation intents, contact management, and efficient video compression. Implemented optimized caching, background processing, and smooth user experience across all modules.",
+      "role": "Sole Developer",
+      "technologies": ["Swift", "Vision", "PhotoKit", "Core Data", "FileManager", "Background Tasks"],
+      "appStoreUrl": "https://apps.apple.com/app/id6748825183",
+      "featured": true
+    },
+    {
+      "id": "voice-recorder",
+      "slug": "voice-recorder",
+      "name": "Voice Recorder",
+      "description": "Full-featured Voice Recorder app with high-quality recording, multiple modes, tag management, audio trimming, transcription, and Core Data caching.",
+      "longDescription": "Independently developed and published a Voice Recorder app featuring high-quality audio recording with multiple modes, comprehensive tag management, audio trimming capabilities, transcription features, and Core Data caching for offline access. Integrated Firebase Crashlytics for real-time issue tracking and monitoring.",
+      "role": "Sole Developer",
+      "technologies": ["Swift", "AVFoundation", "Core Data", "Firebase Crashlytics", "Speech Framework"],
+      "appStoreUrl": "https://apps.apple.com/pk/app/voice-recorder-audio-editor/id6738047270",
+      "featured": true
+    },
+    {
+      "id": "vidinsight",
+      "slug": "vidinsight",
+      "name": "VidInsight Video Player",
+      "description": "Feature-rich video player with Google Ads integration, Android TV casting via Google Cast SDK, and seamless playback experience.",
+      "longDescription": "Developed and integrated Google Ads for optimized ad display, including interstitial and app open ads. Implemented Android TV screen casting using the Google Cast SDK. Managed ad configurations via Firebase Remote Config, monitored performance with Firebase Analytics and Crashlytics, and enhanced video playback features and local network connectivity to deliver a seamless and user-friendly video player experience.",
+      "role": "Sole Developer",
+      "technologies": ["Swift", "Google Cast SDK", "Google Mobile Ads", "Firebase", "AVFoundation"],
+      "appStoreUrl": "https://apps.apple.com/pk/app/video-player-hd-player/id6477869280",
+      "featured": true
+    },
+    {
+      "id": "soha",
+      "slug": "soha",
+      "name": "Soha",
+      "description": "E-commerce app with LeonardoAI prompt generation and three customizable themes for an engaging shopping experience.",
+      "longDescription": "Independently developed the Soha e-commerce app, leveraging LeonardoAI for prompt generation and implementing three customizable themes for an engaging user experience. Managed the entire development process from concept to deployment.",
+      "role": "Sole Developer",
+      "technologies": ["Swift", "SwiftUI", "LeonardoAI", "REST APIs"],
+      "featured": false
+    },
+    {
+      "id": "tutorbuzz",
+      "slug": "tutorbuzz",
+      "name": "TutorBuzz",
+      "description": "Educational platform connecting tutors with students for seamless learning experiences.",
+      "role": "iOS Developer",
+      "technologies": ["Swift", "UIKit", "Firebase"],
+      "featured": false
+    },
+    {
+      "id": "yunrii",
+      "slug": "yunrii",
+      "name": "Yunrii",
+      "description": "E-commerce application with modern shopping features and intuitive user interface.",
+      "role": "iOS Developer",
+      "technologies": ["Swift", "UIKit", "REST APIs"],
+      "featured": false
+    },
+    {
+      "id": "hssreport",
+      "slug": "hssreport",
+      "name": "HSSReport",
+      "description": "Reporting and analytics application for health and safety management.",
+      "role": "iOS Developer",
+      "technologies": ["Swift", "UIKit", "Core Data"],
+      "featured": false
+    },
+    {
+      "id": "taskmanagement",
+      "slug": "taskmanagement",
+      "name": "Task Management",
+      "description": "Productivity app for organizing tasks and boosting efficiency.",
+      "role": "iOS Developer",
+      "technologies": ["Swift", "UIKit", "Core Data"],
+      "featured": false
+    }
+  ],
+  "experience": [
+    {
+      "id": "redix",
+      "company": "Redix",
+      "role": "iOS Developer",
+      "location": "Lahore",
+      "startDate": "Aug 2024",
+      "endDate": "Present",
+      "current": true,
+      "achievements": [
+        "Integrated Google Ads and Android TV casting with Google Cast SDK, enhancing user engagement by 20%",
+        "Optimized ad placement via Firebase Remote Config and monitored performance using Firebase Analytics"
+      ]
+    },
+    {
+      "id": "digitsol",
+      "company": "DigitSol",
+      "role": "iOS Developer",
+      "location": "Lahore",
+      "startDate": "Oct 2023",
+      "endDate": "Jul 2024",
+      "current": false,
+      "achievements": [
+        "Sole developer responsible for the end-to-end development of an iOS app, ensuring high-quality delivery",
+        "Integrated Firebase/Firestore for real-time data syncing and improved app functionality",
+        "Collaborated with Android teams to maintain cross-platform consistency"
+      ]
+    },
+    {
+      "id": "techswivel",
+      "company": "TechSwivel",
+      "role": "iOS Developer",
+      "location": "Lahore",
+      "startDate": "Mar 2023",
+      "endDate": "Oct 2023",
+      "current": false,
+      "achievements": [
+        "Utilized RxSwift for responsive data handling and seamless user experiences",
+        "Worked remotely with a dynamic company, demonstrating strong self-management and communication skills"
+      ]
+    },
+    {
+      "id": "mtechsoft",
+      "company": "M Tech Soft",
+      "role": "iOS Developer",
+      "location": "Lahore",
+      "startDate": "Nov 2021",
+      "endDate": "Feb 2023",
+      "current": false,
+      "achievements": [
+        "Designed and developed UI screens for multiple client apps, ensuring smooth user flows and consistent design patterns",
+        "Integrated REST APIs across various modules, including authentication, dashboards, chat features, and data syncing",
+        "Implemented Firebase services such as Firestore, Authentication, and Cloud Messaging for real-time features and notifications",
+        "Collaborated with backend teams to refine API structures and improve app performance and reliability"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "BS Computer Science",
+      "institution": "Bahauddin Zakariya University",
+      "location": "Multan",
+      "startYear": "2016",
+      "endYear": "2020"
+    }
+  ],
+  "socials": [
+    {
+      "name": "GitHub",
+      "url": "https://github.com/OmerBuzdar",
+      "icon": "github"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/muhammad-umer-buzdar",
+      "icon": "linkedin"
+    },
+    {
+      "name": "Email",
+      "url": "mailto:omerbaloch6464@gmail.com",
+      "icon": "mail"
+    }
+  ]
+}
+
+
