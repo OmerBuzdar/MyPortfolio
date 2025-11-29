@@ -6,6 +6,9 @@ import Image from 'next/image';
 import { Button } from '../ui';
 import portfolioData from '@/data/portfolio.json';
 
+// Get basePath for production deployment
+const basePath = process.env.NODE_ENV === 'production' ? '/MyPortfolio' : '';
+
 export default function Hero() {
   const { name, title, bio, resumeUrl } = portfolioData.personal;
 
@@ -122,7 +125,7 @@ export default function Hero() {
             {/* Profile image */}
             <div className="absolute inset-[3px] rounded-full overflow-hidden bg-gradient-to-br from-primary-100 to-accent-100 dark:from-primary-900/50 dark:to-accent-900/50">
               <Image
-                src="/images/profile.jpg"
+                src={`${basePath}/images/profile.jpg`}
                 alt={name}
                 fill
                 className="object-cover"
@@ -182,7 +185,7 @@ export default function Hero() {
             variants={itemVariants}
             className="flex flex-col sm:flex-row items-center justify-center gap-4"
           >
-            <Button href={resumeUrl} download variant="primary" size="lg">
+            <Button href={`${basePath}${resumeUrl}`} download variant="primary" size="lg">
               <Download className="w-5 h-5 mr-2" />
               Download Resume
             </Button>
